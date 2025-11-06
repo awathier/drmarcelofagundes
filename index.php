@@ -1,9 +1,9 @@
 <?php
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=u553918556_drmf', 'u553918556_drmf', 'Drmf2025!#');
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $pdo = new PDO('mysql:host=localhost;dbname=u553918556_drmf', 'u553918556_drmf', 'Drmf2025!#');
+  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    die("Erro: " . $e->getMessage());
+  die("Erro: " . $e->getMessage());
 }
 
 // Inserir novo comentário
@@ -913,14 +913,20 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
 
             <div class="swiper init-swiper">
               <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": { "delay": 5000 },
-              "slidesPerView": "auto",
-              "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
-            }
-          </script>
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
               <div class="swiper-wrapper">
 
                 <!-- Depoimento 1 -->
@@ -1402,6 +1408,17 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
                 data-type="video" data-title="Diabetes Gestacional" data-description="Aula">
                 <img src="assets/img/gallery/drm-diabetes-gestacional-1.png" alt="" class="img-fluid">
                 <div class="caption">Diabetes Gestacional</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/drm-violencia-sexual.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Violência Sexual" data-description="Aula">
+                <img src="assets/img/gallery/drm-violencia-sexual-1.png" alt="" class="img-fluid">
+                <div class="caption">Violência Sexual</div>
               </a>
             </div>
           </div>
