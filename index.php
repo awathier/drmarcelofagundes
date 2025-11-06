@@ -1,5 +1,10 @@
 <?php
-$pdo = new PDO("mysql:host=localhost;dbname=u553918556_drmf", "root", "");
+try {
+    $pdo = new PDO('mysql:host=localhost;dbname=u553918556_drmf', 'u553918556_drmf', 'Drmf2025!#');
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Erro: " . $e->getMessage());
+}
 
 // Inserir novo comentário
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -88,7 +93,7 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
     <div class="branding d-flex align-items-center">
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.png" alt=""> -->
           <h1 class="sitename">Dr. Marcelo Fagundes</h1>
@@ -1535,7 +1540,7 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
 
         <!-- Coluna 1 -->
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="index.php" class="logo d-flex align-items-center">
             <span class="sitename">Dr. Marcelo Freitas de Cabral Fagundes</span>
           </a>
 
