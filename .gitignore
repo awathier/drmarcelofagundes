@@ -1,17 +1,98 @@
+# =========================================
+# 🌐 Ambiente do macOS / VSCode / PHP
+# Autor: Sr Wathier
+# =========================================
+
+# 🧠 Configurações locais do VS Code
 .vscode/
+
+# 🍎 Arquivos temporários do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# 🧰 Logs e caches
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.cache/
+logs/
+storage/
+tmp/
+temp/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🧱 Dependências e build
+node_modules/
+vendor/
+bower_components/
+dist/
+build/
+coverage/
+
+# ⚙️ Arquivos de IDEs / editores
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# 📦 Arquivos de sistema / pacotes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lock
+*.pid
+*.seed
+*.out
+
+# 💾 Arquivos de banco / dump
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# 🖼️ Mídias grandes e arquivos binários
 *.mp4
 *.mov
 *.avi
 *.mkv
+*.flv
+*.wmv
+*.mp3
+*.wav
+*.flac
 *.zip
 *.rar
 *.tar
 *.gz
-*.iso
+*.7z
 *.dmg
+*.iso
 *.psd
 *.xcf
-*.wav
-*.flac
-*.m4a
-*.mp4
+*.ai
+*.eps
+
+# 🧪 Testes locais
+.env
+.env.local
+.env.*.local
+.phpunit.result.cache
+
+# 🧾 Configurações locais
+composer.lock
+package-lock.json
+
+# 🚫 Outros arquivos desnecessários
+*.orig
+*.rej
+*.seed
+*.old
+*.bak
