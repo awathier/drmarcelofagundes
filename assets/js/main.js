@@ -197,3 +197,5 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+console.log('carregado')
