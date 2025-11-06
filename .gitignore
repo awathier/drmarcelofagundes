@@ -1,2 +1,16 @@
 .vscode/
-
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.rar
+*.tar
+*.gz
+*.iso
+*.dmg
+*.psd
+*.xcf
+*.wav
+*.flac
+*.m4a

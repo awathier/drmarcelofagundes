@@ -1,3 +1,15 @@
+<?php
+$pdo = new PDO("mysql:host=localhost;dbname=u553918556_drmf", "root", "");
+
+// Inserir novo comentário
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $stmt = $pdo->prepare("INSERT INTO comentarios (nome, mensagem) VALUES (?, ?)");
+  $stmt->execute([$_POST['nome'], $_POST['mensagem']]);
+}
+
+// Buscar comentários
+$comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetchAll(PDO::FETCH_ASSOC);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
