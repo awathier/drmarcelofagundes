@@ -1424,6 +1424,17 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
           </div>
           <!-- End Gallery Item -->
 
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/drm-osteoporose.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Osteoporose" data-description="Aula">
+                <img src="assets/img/gallery/drm-osteoporose-1.png" alt="" class="img-fluid">
+                <div class="caption">Osteoporose</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
         </div>
 
       </div>
