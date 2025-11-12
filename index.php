@@ -1490,6 +1490,17 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
           </div>
           <!-- End Gallery Item -->
 
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/tumor-de-ovario.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Tumor de Ovário" data-description="Aula">
+                <img src="assets/img/gallery/tumor-de-ovario.png" alt="" class="img-fluid">
+                <div class="caption">Tumor de Ovário</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
         </div>
 
       </div>
