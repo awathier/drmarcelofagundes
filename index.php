@@ -1545,6 +1545,39 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
           </div>
           <!-- End Gallery Item -->
 
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/o-que-eh-sangramento-uterino-anormal.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="O que é sangramento uterino anormal?" data-description="Aula">
+                <img src="assets/img/gallery/o-que-eh-sangramento-uterino-anormal.png" alt="" class="img-fluid">
+                <div class="caption">O que é sangramento uterino anormal?</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/aborto-de-repeticao.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Aborto de repetição" data-description="Aula">
+                <img src="assets/img/gallery/aborto-de-repeticao.png" alt="" class="img-fluid">
+                <div class="caption">Aborto de repetição</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/incontinencia-urinaria.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Incontinência urinária" data-description="Aula">
+                <img src="assets/img/gallery/incontinencia-urinaria.png" alt="" class="img-fluid">
+                <div class="caption">Incontinência urinária</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
         </div>
 
       </div>
