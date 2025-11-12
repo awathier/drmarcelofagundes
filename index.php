@@ -1446,6 +1446,50 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
           </div>
           <!-- End Gallery Item -->
 
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/sindrome-ovario-policistico.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Síndrome de Ovários Policísticos (SOMPC)" data-description="Aula">
+                <img src="assets/img/gallery/sindrome-ovario-policistico.png" alt="" class="img-fluid">
+                <div class="caption">Síndrome de Ovários Policísticos (SOMPC)</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/infeccao-urinaria-mulher.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Infecção Urinária na Mulher" data-description="Aula">
+                <img src="assets/img/gallery/infeccao-urinaria-mulher.png" alt="" class="img-fluid">
+                <div class="caption">Infecção Urinária na Mulher</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/corrimento-vaginal.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Corrimento Vaginal" data-description="Aula">
+                <img src="assets/img/gallery/corrimento-vaginal.png" alt="" class="img-fluid">
+                <div class="caption">Corrimento Vaginal</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/nodulo-de-mama.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Nódulos de Mama" data-description="Aula">
+                <img src="assets/img/gallery/nodulo-de-mama.png" alt="" class="img-fluid">
+                <div class="caption">Nódulos de Mama</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
         </div>
 
       </div>
