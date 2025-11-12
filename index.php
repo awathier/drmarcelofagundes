@@ -390,7 +390,7 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
               <div class="icon">
                 <i class="fas fa-heartbeat"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a class="stretched-link">
                 <h3>Cirurgias Ginecológicas</h3>
               </a>
               <p>Procedimentos como histerectomia, miomectomia, correção de incontinência urinária (sling) e cirurgias
@@ -404,7 +404,7 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
               <div class="icon">
                 <i class="fas fa-ribbon"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a class="stretched-link">
                 <h3>Tratamento da Endometriose</h3>
               </a>
               <p>Diagnóstico e tratamento com equipe multidisciplinar (Ginecologia, Proctologia e Urologia), com
@@ -418,7 +418,7 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
               <div class="icon">
                 <i class="fas fa-baby"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a class="stretched-link">
                 <h3>Pré-natal e Partos</h3>
               </a>
               <p>Acompanhamento humanizado durante a gestação e parto (normal ou cesárea), com apoio de equipe composta
@@ -432,7 +432,7 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
               <div class="icon">
                 <i class="fas fa-stethoscope"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a class="stretched-link">
                 <h3>Procedimentos Ambulatoriais</h3>
               </a>
               <p>Cirurgias de Alta Frequência (CAF) para HPV, retirada de pólipos e videocolposcopia — realizados com
@@ -446,7 +446,7 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
               <div class="icon">
                 <i class="fas fa-syringe"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a class="stretched-link">
                 <h3>Contracepção e Planejamento Familiar</h3>
               </a>
               <p>Implante contraceptivo (Implanon), colocação de DIU e acompanhamento individualizado de métodos
@@ -460,7 +460,7 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
               <div class="icon">
                 <i class="fas fa-notes-medical"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a class="stretched-link">
                 <h3>Exames e Diagnóstico</h3>
               </a>
               <p>Realização de videocolposcopia e acompanhamento clínico detalhado para prevenção e detecção precoce de
@@ -1507,6 +1507,39 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
                 data-type="video" data-title="Qual a melhor via de parto para o bebê?" data-description="Aula">
                 <img src="assets/img/gallery/melhor-via-parto-bebe.png" alt="" class="img-fluid">
                 <div class="caption">Qual a melhor via de parto para o bebê?</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/circular-cervical-de-cordao-umbilical-e-via-de-parto.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Circular cervical de cordão umbilical e via de parto" data-description="Aula">
+                <img src="assets/img/gallery/circular-cervical-de-cordao-umbilical-e-via-de-parto.png" alt="" class="img-fluid">
+                <div class="caption">Circular cervical de cordão umbilical e via de parto</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/voce-sabe-o-que-eh-hpv.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Você sabe o que é o HPV" data-description="Aula">
+                <img src="assets/img/gallery/voce-sabe-o-que-eh-hpv.png" alt="" class="img-fluid">
+                <div class="caption">Você sabe o que é o HPV</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/voce-conhece-procedimento-parto-normal-humanizado.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Você conhece o procedimento do parto normal humanizado?" data-description="Aula">
+                <img src="assets/img/gallery/voce-conhece-procedimento-parto-normal-humanizado.png" alt="" class="img-fluid">
+                <div class="caption">Você conhece o procedimento do parto normal humanizado?</div>
               </a>
             </div>
           </div>
