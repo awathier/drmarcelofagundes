@@ -1501,6 +1501,17 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
           </div>
           <!-- End Gallery Item -->
 
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/melhor-via-parto-bebe.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Qual a melhor via de parto para o bebê?" data-description="Aula">
+                <img src="assets/img/gallery/melhor-via-parto-bebe.png" alt="" class="img-fluid">
+                <div class="caption">Qual a melhor via de parto para o bebê?</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
         </div>
 
       </div>
