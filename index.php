@@ -1287,25 +1287,14 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/videos/drm-parto-instrumental-1.mp4" class="glightbox" data-gallery="images-gallery"
+              <a href="assets/videos/parto-instrumental.mp4" class="glightbox" data-gallery="images-gallery"
                 data-type="video" data-title="Porque eu não faço parto instrumental" data-description="Parte 1">
                 <img src="assets/img/gallery/gallery-drm-parto-instrumental-1.png" alt="" class="img-fluid">
-                <div class="caption">Porque eu não faço parto instrumental - Parte 1</div>
+                <div class="caption">Porque eu não faço parto instrumental</div>
               </a>
             </div>
           </div>
           <!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/videos/drm-parto-instrumental-2.mp4" class="glightbox" data-gallery="images-gallery"
-                data-type="video" data-title="Porque eu não faço parto instrumental" data-description="Parte 2">
-                <img src="assets/img/gallery/gallery-drm-transp-aula-v.png" alt="" class="img-fluid">
-                <div class="caption">Porque eu não faço parto instrumental - Parte 2</div>
-              </a>
-            </div>
-          </div>
-          <!-- End Gallery Item 3 -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
@@ -1341,10 +1330,10 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/videos/drm-hormonios-1.mp4" class="glightbox" data-gallery="images-gallery"
+              <a href="assets/videos/hormoneos-tireoide.mp4" class="glightbox" data-gallery="images-gallery"
                 data-type="video" data-title="Hormônios da Tireóide e gravidez" data-description="Parte 1">
                 <img src="assets/img/gallery/gallery-drm-hormoneos-tireoide-1.png" alt="" class="img-fluid">
-                <div class="caption">Hormônios da Tireóide e gravidez - Parte 1</div>
+                <div class="caption">Hormônios da Tireóide e gravidez </div>
               </a>
             </div>
           </div>
@@ -1352,51 +1341,10 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/videos/drm-hormonios-2.mp4" class="glightbox" data-gallery="images-gallery"
-                data-type="video" data-title="Hormônios da Tireóide e gravidez" data-description="Parte 2">
-                <img src="assets/img/gallery/gallery-drm-transp-aula-v.png" alt="" class="img-fluid">
-                <div class="caption">Hormônios da Tireóide e gravidez - Parte 2</div>
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/videos/drm-hormonios-3.mp4" class="glightbox" data-gallery="images-gallery"
-                data-type="video" data-title="Hormônios da Tireóide e gravidez" data-description="Parte 3">
-                <img src="assets/img/gallery/gallery-drm-transp-aula-v.png" alt="" class="img-fluid">
-                <div class="caption">Hormônios da Tireóide e gravidez - Parte 3</div>
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/videos/drm-complicacoes-gravidez-1.mp4" class="glightbox" data-gallery="images-gallery"
+              <a href="assets/videos/complicacoes-gravidez.mp4" class="glightbox" data-gallery="images-gallery"
                 data-type="video" data-title="Complicações maternas associadas ao parto" data-description="Parte 1">
                 <img src="assets/img/gallery/gallery-drm-complicacoes-gravides-1.png" alt="" class="img-fluid">
-                <div class="caption">Complicações maternas associadas ao parto - Parte 1</div>
-              </a>
-            </div>
-          </div>
-          <!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/videos/drm-complicacoes-gravidez-2.mp4" class="glightbox" data-gallery="images-gallery"
-                data-type="video" data-title="Complicações maternas associadas ao parto" data-description="Parte 2">
-                <img src="assets/img/gallery/gallery-drm-transp-aula-v.png" alt="" class="img-fluid">
-                <div class="caption">Complicações maternas associadas ao parto - Parte 2</div>
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/videos/drm-complicacoes-gravidez-3.mp4" class="glightbox" data-gallery="images-gallery"
-                data-type="video" data-title="Complicações maternas associadas ao parto" data-description="Parte 3">
-                <img src="assets/img/gallery/gallery-drm-transp-aula-v.png" alt="" class="img-fluid">
-                <div class="caption">Complicações maternas associadas ao parto - Parte 3</div>
+                <div class="caption">Complicações maternas associadas ao parto</div>
               </a>
             </div>
           </div>
@@ -1584,6 +1532,39 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
                 data-type="video" data-title="Candidíase de Repetição" data-description="Aula">
                 <img src="assets/img/gallery/candidiase-repeticao.png" alt="" class="img-fluid">
                 <div class="caption">Candidíase de Repetição</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/cuidados-durante-gestacao.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Cuidados durante a gestação" data-description="Aula">
+                <img src="assets/img/gallery/cuidados-durante-gestacao.png" alt="" class="img-fluid">
+                <div class="caption">Cuidados durante a gestação</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/ruptura-membrana-prematura.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="Ruptura de membrana prematura" data-description="Aula">
+                <img src="assets/img/gallery/ruptura-membrana-prematura.png" alt="" class="img-fluid">
+                <div class="caption">Ruptura de membrana prematura</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/videos/o-que-eh-menopausa.mp4" class="glightbox" data-gallery="images-gallery"
+                data-type="video" data-title="O que é menopausa?" data-description="Aula">
+                <img src="assets/img/gallery/o-que-eh-menopausa.png" alt="" class="img-fluid">
+                <div class="caption">O que é menopausa?</div>
               </a>
             </div>
           </div>
