@@ -742,50 +742,6 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
           </div>
           <!-- End Team Member -->
 
-          <!-- Parceiro 3 -->
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/drmarcelo-1.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Dr. Marcelo Fagundes</h4>
-                <span>Ginecologista e Obstetra</span>
-                <p>Acompanhamento completo da saúde feminina em todas as fases da vida, com foco na prevenção e no
-                  bem-estar. O atendimento é realizado com acolhimento, escuta e respeito, incluindo consultas de
-                  rotina, rastreamento de doenças ginecológicas, exames preventivos e orientação sobre saúde íntima e
-                  menopausa.</p>
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href="https://www.instagram.com/drmarcelofagundes/" target="_blank"><i
-                      class="bi bi-instagram"></i></a>
-                  <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <!-- Parceira 4 -->
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/doctors/drmarcelo-1.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Dr. Marcelo Fagundes</h4>
-                <span>Ginecologista e Obstetra</span>
-                <p>Acompanhamento completo da saúde feminina em todas as fases da vida, com foco na prevenção e no
-                  bem-estar. O atendimento é realizado com acolhimento, escuta e respeito, incluindo consultas de
-                  rotina, rastreamento de doenças ginecológicas, exames preventivos e orientação sobre saúde íntima e
-                  menopausa.</p>
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
-                  <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-                  <a href="https://www.instagram.com/drmarcelofagundes/" target="_blank"><i
-                      class="bi bi-instagram"></i></a>
-                  <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
         </div>
 
       </div>
@@ -976,82 +932,6 @@ $comentarios = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC")->fetc
                         etapa do processo, transmitindo calma e confiança. O parto foi um momento inesquecível e muito
                         bem
                         conduzido.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <!-- Depoimento 3 -->
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0"
-                        alt="">
-                      <div>
-                        <h3>Renata Souza</h3>
-                        <h4>Consulta Preventiva</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>O atendimento foi excelente desde a recepção até o retorno. O Dr. Marcelo é extremamente
-                        atencioso e explica tudo com clareza. Me senti acolhida e respeitada em todas as etapas da
-                        consulta.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <!-- Depoimento 4 -->
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0"
-                        alt="">
-                      <div>
-                        <h3>Juliana Campos</h3>
-                        <h4>Cirurgia Ginecológica</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Fui operada pelo Dr. Marcelo e me surpreendi com o cuidado no pós-operatório. Além da
-                        técnica,
-                        a atenção humana fez toda a diferença na minha recuperação. Só tenho a agradecer!</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <!-- Depoimento 5 -->
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0"
-                        alt="">
-                      <div>
-                        <h3>Mariana Duarte</h3>
-                        <h4>Tratamento Hormonal</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Com o acompanhamento do Dr. Marcelo, consegui controlar os sintomas da menopausa com
-                        segurança
-                        e me sentir bem novamente. Um atendimento completo e humanizado que recomendo de olhos
-                        fechados.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
